@@ -1,0 +1,60 @@
+Brandon Perez  
+
+A11959407
+
+Lab 2
+
+Introduction
+
+There were 4 major objectives in this lab. Each objective developed our skills and experience with arduino/python coding. We learned how to
+use specific functions, as well as implement different pieces of hardware. In general, we worked with start/stop functions. Simply put we 
+we created a pause function that we would then relate to real world applications, such as a stopwatch.
+
+Objective 1
+
+The objective was to learn and understand the blink sketch. The sketch simply made an LED on the 
+arduino blink. This LED would turn on for a given amount of time, and then turn off for another set time. These times were set by the 
+"delay" given in the code. We were also tasked with creating a counter to keep track of how many times the LED turned off/on. 
+Furthermore, we created a puase function in which the user can control when the program ran and stopped.
+
+-open/read blink code
+-run the code in snippets and understand each part
+-experiment and further learn about the code
+
+Objective 2
+
+The next objective was to understand the serial communication between Python and Arduino. We implemented the same pause funciton created
+in objective 1. We learned how to create a random number within a certain range, and repeat this step as needed, with respect to a clock.
+We would then link this information to the arduino and the blink code.
+
+-learn the syntax required for this objective
+-find out how to actually implement said syntac
+-search through google to continue to figure out how to properly use syntax
+-try using a different syntax/recommended funtion in order to complete the objective
+-implement your knew code with the code you created in the previous objective
+
+Objective 3
+
+In the 3rd objective, we worked on displaying our data on an OLED. More specifically, we would communicate the Python code with the Arduino 
+code and display it on a small screen. This objective also gave us hands on experience with soldering.
+
+-Learn how to turn on and use the OLED
+-Use google/youtube to help you figure our the OLED
+-Once you figure out the code, follow the steps to solder the board
+-solder and re-test to make sure you did not make any mistakes
+
+Objective 4
+The final objective allowed us to create a stopwatch using a button and the OLED. 
+
+-put everything you learned together and create a stopwatch
+
+Conclusion
+Unfortunately, I was unable to complete the entirety of Lab2. I greatly underestimated the scope and time required for the Lab. 
+I did learn a great number of things regarding syntax and logic. These experiences will help guide me for the remainder of the course, 
+I will be sure to allocate more time for the next lab. I did not expect this class to require so much work. 
+
+
+
+
+
+
