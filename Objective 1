@@ -1,0 +1,28 @@
+MyBlink.ino
+
+
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  Serial.begin(9600);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+
+int counter = 0;
+void loop() {
+
+  String action = Serial.readStringUntil('\n');
+  while (action == "START") {
+    digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+    delay(2000);                       // wait for a second
+    digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+    delay(500);                        // wait for a second
+    counter = counter + 1;
+    Serial.println(counter, DEC);
+    String action = Serial.readStringUntil('\n');
+    if (action == "STOP") {
+      break;
+    }
+  }
+}
